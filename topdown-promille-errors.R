@@ -23,7 +23,7 @@ tell_me_how_drunk(
 
 tell_me_how_drunk(
   age = 82,
-  sex = "f",
+  sex = "female",
   height = -19,
   weight = 87,
   drinking_time = as.POSIXct(c("2016-10-03 18:15:00", "2016-10-03 22:55:00")),
@@ -32,7 +32,7 @@ tell_me_how_drunk(
 
 tell_me_how_drunk(
   age = 82,
-  sex = "f",
+  sex = "female",
   height = NULL,
   weight = 87,
   drinking_time = as.POSIXct(c("2016-10-03 18:15:00", "2016-10-03 22:55:00")),
@@ -42,7 +42,7 @@ tell_me_how_drunk(
 
 tell_me_how_drunk(
   age = 82,
-  sex = "f",
+  sex = "female",
   height = Inf,
   weight = 87,
   drinking_time = as.POSIXct(c("2016-10-03 18:15:00", "2016-10-03 22:55:00")),
@@ -60,8 +60,8 @@ tell_me_how_drunk(
 
 tell_me_how_drunk(
   age = 17,
-  sex = "unicorn",
-  height = -19,
+  sex = "male",
+  height = 19,
   weight = "fat",
   drinking_time = as.POSIXct(c("2016-10-03 18:15:00", "2016-10-03 22:55:00")),
   drinks = c("schnaps" = 3)
@@ -69,7 +69,7 @@ tell_me_how_drunk(
 
 tell_me_how_drunk(
   age = 14,
-  sex = "f",
+  sex = "female",
   height = 160,
   weight = 54,
   drinking_time = c("14.00", "21.00"),
@@ -88,7 +88,7 @@ tell_me_how_drunk(
 
 tell_me_how_drunk(
   age = 14,
-  sex = "m",
+  sex = "male",
   height = 160,
   weight = 54,
   drinking_time = as.POSIXct(c("2016-10-03 14:00:00", "2016-10-03 21:00:00")),
@@ -98,7 +98,7 @@ tell_me_how_drunk(
 
 tell_me_how_drunk(
   age = 34,
-  sex = "m",
+  sex = "male",
   height = 190,
   weight = 87,
   drinking_time = as.POSIXct(c("2016-10-03 18:15:00", "2016-10-03 22:55:00")),
@@ -107,7 +107,7 @@ tell_me_how_drunk(
 
 tell_me_how_drunk(
   age = 24,
-  sex = "f",
+  sex = "female",
   height = 160,
   weight = 54,
   drinking_time = as.POSIXct(c("2016-10-03 14:00:00", "2016-10-03 21:00:00")),
@@ -121,4 +121,13 @@ tell_me_how_drunk(
   weight = 54,
   drinking_time = as.POSIXct(c("2016-10-03 14:00:00", "2016-10-03 21:00:00")),
   drinks = list("wein" = NULL)
+)
+
+tell_me_how_drunk(
+  age = 13,
+  sex = "f",
+  height = 160,
+  weight = 54,
+  drinking_time = as.POSIXct(c("2016-10-03 14:00:00", "2016-10-03 21:00:00")),
+  drinks = list("wein" = 5)
 )
